@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA06F07A2427D80400835782 /* ManufacturerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06F0792427D80400835782 /* ManufacturerItem.swift */; };
+		DA06F07C2427D90000835782 /* ManufacturerItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06F07B2427D90000835782 /* ManufacturerItemRow.swift */; };
+		DA06F07E2427DE3F00835782 /* ManufacturerItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06F07D2427DE3F00835782 /* ManufacturerItemDetail.swift */; };
+		DA36D95E2425E60700CD9B5C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA36D95D2425E60700CD9B5C /* Data.swift */; };
+		DA36D9602425EAA700CD9B5C /* Riders.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA36D95F2425EAA700CD9B5C /* Riders.swift */; };
+		DA36D962242600E700CD9B5C /* Riderslist.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA36D961242600E700CD9B5C /* Riderslist.swift */; };
+		DA36D9642426012000CD9B5C /* Circuitslist.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA36D9632426012000CD9B5C /* Circuitslist.swift */; };
+		DA36D9662426762300CD9B5C /* RiderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA36D9652426762300CD9B5C /* RiderRow.swift */; };
+		DA36D9682426767B00CD9B5C /* RiderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA36D9672426767B00CD9B5C /* RiderDetail.swift */; };
+		DAD55526243331250041A61B /* Circuits.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD55525243331240041A61B /* Circuits.swift */; };
+		DAD555282433338B0041A61B /* CircuitsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD555272433338B0041A61B /* CircuitsRow.swift */; };
+		DAD5552A24333BEF0041A61B /* CircuitsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD5552924333BEF0041A61B /* CircuitsDetail.swift */; };
+		DADD0D392437206100B4C86A /* MotoGP soundtrack - Highlights 2017 and 2018_Y4JS28ge_-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DADD0D382437206000B4C86A /* MotoGP soundtrack - Highlights 2017 and 2018_Y4JS28ge_-s.mp3 */; };
+		DADD0D3B2437210000B4C86A /* MotoGPmusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD0D3A2437210000B4C86A /* MotoGPmusic.swift */; };
 		DAFE15B62425286300BAEC91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE15B52425286300BAEC91 /* AppDelegate.swift */; };
 		DAFE15B82425286300BAEC91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE15B72425286300BAEC91 /* SceneDelegate.swift */; };
 		DAFE15BA2425286300BAEC91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE15B92425286300BAEC91 /* ContentView.swift */; };
@@ -15,6 +29,8 @@
 		DAFE15C22425286400BAEC91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAFE15C02425286400BAEC91 /* LaunchScreen.storyboard */; };
 		DAFE15CD2425286500BAEC91 /* SwiftUI_MotoGPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE15CC2425286500BAEC91 /* SwiftUI_MotoGPTests.swift */; };
 		DAFE15D82425286500BAEC91 /* SwiftUI_MotoGPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE15D72425286500BAEC91 /* SwiftUI_MotoGPUITests.swift */; };
+		DAFE15E624252A2700BAEC91 /* firstpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE15E524252A2700BAEC91 /* firstpage.swift */; };
+		DAFE15E82425484F00BAEC91 /* secondpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE15E72425484F00BAEC91 /* secondpage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +51,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DAFE15B22425286300BAEC91 /* SwiftUI-MotoGP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-MotoGP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA06F0792427D80400835782 /* ManufacturerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufacturerItem.swift; sourceTree = "<group>"; };
+		DA06F07B2427D90000835782 /* ManufacturerItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufacturerItemRow.swift; sourceTree = "<group>"; };
+		DA06F07D2427DE3F00835782 /* ManufacturerItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufacturerItemDetail.swift; sourceTree = "<group>"; };
+		DA36D95D2425E60700CD9B5C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		DA36D95F2425EAA700CD9B5C /* Riders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riders.swift; sourceTree = "<group>"; };
+		DA36D961242600E700CD9B5C /* Riderslist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riderslist.swift; sourceTree = "<group>"; };
+		DA36D9632426012000CD9B5C /* Circuitslist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circuitslist.swift; sourceTree = "<group>"; };
+		DA36D9652426762300CD9B5C /* RiderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderRow.swift; sourceTree = "<group>"; };
+		DA36D9672426767B00CD9B5C /* RiderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderDetail.swift; sourceTree = "<group>"; };
+		DA77B7422437B8F8006B2817 /* SwiftUI-MotoGP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-MotoGP.entitlements"; sourceTree = "<group>"; };
+		DAD55525243331240041A61B /* Circuits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circuits.swift; sourceTree = "<group>"; };
+		DAD555272433338B0041A61B /* CircuitsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitsRow.swift; sourceTree = "<group>"; };
+		DAD5552924333BEF0041A61B /* CircuitsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitsDetail.swift; sourceTree = "<group>"; };
+		DADD0D382437206000B4C86A /* MotoGP soundtrack - Highlights 2017 and 2018_Y4JS28ge_-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MotoGP soundtrack - Highlights 2017 and 2018_Y4JS28ge_-s.mp3"; sourceTree = "<group>"; };
+		DADD0D3A2437210000B4C86A /* MotoGPmusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoGPmusic.swift; sourceTree = "<group>"; };
+		DAFE15B22425286300BAEC91 /* MotoGP-2020-Introduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MotoGP-2020-Introduction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFE15B52425286300BAEC91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAFE15B72425286300BAEC91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DAFE15B92425286300BAEC91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +80,8 @@
 		DAFE15D32425286500BAEC91 /* SwiftUI-MotoGPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-MotoGPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFE15D72425286500BAEC91 /* SwiftUI_MotoGPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MotoGPUITests.swift; sourceTree = "<group>"; };
 		DAFE15D92425286500BAEC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAFE15E524252A2700BAEC91 /* firstpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstpage.swift; sourceTree = "<group>"; };
+		DAFE15E72425484F00BAEC91 /* secondpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondpage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +112,22 @@
 		DAFE15A92425286300BAEC91 = {
 			isa = PBXGroup;
 			children = (
+				DADD0D382437206000B4C86A /* MotoGP soundtrack - Highlights 2017 and 2018_Y4JS28ge_-s.mp3 */,
+				DADD0D3A2437210000B4C86A /* MotoGPmusic.swift */,
+				DAFE15E524252A2700BAEC91 /* firstpage.swift */,
+				DAFE15E72425484F00BAEC91 /* secondpage.swift */,
+				DA36D961242600E700CD9B5C /* Riderslist.swift */,
+				DA36D9652426762300CD9B5C /* RiderRow.swift */,
+				DA36D9672426767B00CD9B5C /* RiderDetail.swift */,
+				DA36D9632426012000CD9B5C /* Circuitslist.swift */,
+				DAD555272433338B0041A61B /* CircuitsRow.swift */,
+				DAD5552924333BEF0041A61B /* CircuitsDetail.swift */,
+				DA06F07B2427D90000835782 /* ManufacturerItemRow.swift */,
+				DA06F07D2427DE3F00835782 /* ManufacturerItemDetail.swift */,
+				DA36D95D2425E60700CD9B5C /* Data.swift */,
+				DA36D95F2425EAA700CD9B5C /* Riders.swift */,
+				DAD55525243331240041A61B /* Circuits.swift */,
+				DA06F0792427D80400835782 /* ManufacturerItem.swift */,
 				DAFE15B42425286300BAEC91 /* SwiftUI-MotoGP */,
 				DAFE15CB2425286500BAEC91 /* SwiftUI-MotoGPTests */,
 				DAFE15D62425286500BAEC91 /* SwiftUI-MotoGPUITests */,
@@ -89,7 +138,7 @@
 		DAFE15B32425286300BAEC91 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAFE15B22425286300BAEC91 /* SwiftUI-MotoGP.app */,
+				DAFE15B22425286300BAEC91 /* MotoGP-2020-Introduction.app */,
 				DAFE15C82425286400BAEC91 /* SwiftUI-MotoGPTests.xctest */,
 				DAFE15D32425286500BAEC91 /* SwiftUI-MotoGPUITests.xctest */,
 			);
@@ -99,6 +148,7 @@
 		DAFE15B42425286300BAEC91 /* SwiftUI-MotoGP */ = {
 			isa = PBXGroup;
 			children = (
+				DA77B7422437B8F8006B2817 /* SwiftUI-MotoGP.entitlements */,
 				DAFE15B52425286300BAEC91 /* AppDelegate.swift */,
 				DAFE15B72425286300BAEC91 /* SceneDelegate.swift */,
 				DAFE15B92425286300BAEC91 /* ContentView.swift */,
@@ -153,7 +203,7 @@
 			);
 			name = "SwiftUI-MotoGP";
 			productName = "SwiftUI-MotoGP";
-			productReference = DAFE15B22425286300BAEC91 /* SwiftUI-MotoGP.app */;
+			productReference = DAFE15B22425286300BAEC91 /* MotoGP-2020-Introduction.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DAFE15C72425286400BAEC91 /* SwiftUI-MotoGPTests */ = {
@@ -240,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADD0D392437206100B4C86A /* MotoGP soundtrack - Highlights 2017 and 2018_Y4JS28ge_-s.mp3 in Resources */,
 				DAFE15C22425286400BAEC91 /* LaunchScreen.storyboard in Resources */,
 				DAFE15BF2425286400BAEC91 /* Preview Assets.xcassets in Resources */,
 				DAFE15BC2425286400BAEC91 /* Assets.xcassets in Resources */,
@@ -267,9 +318,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA36D962242600E700CD9B5C /* Riderslist.swift in Sources */,
+				DAD55526243331250041A61B /* Circuits.swift in Sources */,
+				DA06F07A2427D80400835782 /* ManufacturerItem.swift in Sources */,
+				DAFE15E82425484F00BAEC91 /* secondpage.swift in Sources */,
+				DA36D95E2425E60700CD9B5C /* Data.swift in Sources */,
 				DAFE15B62425286300BAEC91 /* AppDelegate.swift in Sources */,
+				DA36D9642426012000CD9B5C /* Circuitslist.swift in Sources */,
+				DA06F07E2427DE3F00835782 /* ManufacturerItemDetail.swift in Sources */,
+				DA36D9662426762300CD9B5C /* RiderRow.swift in Sources */,
 				DAFE15B82425286300BAEC91 /* SceneDelegate.swift in Sources */,
+				DAD555282433338B0041A61B /* CircuitsRow.swift in Sources */,
+				DA36D9602425EAA700CD9B5C /* Riders.swift in Sources */,
 				DAFE15BA2425286300BAEC91 /* ContentView.swift in Sources */,
+				DA06F07C2427D90000835782 /* ManufacturerItemRow.swift in Sources */,
+				DA36D9682426767B00CD9B5C /* RiderDetail.swift in Sources */,
+				DADD0D3B2437210000B4C86A /* MotoGPmusic.swift in Sources */,
+				DAFE15E624252A2700BAEC91 /* firstpage.swift in Sources */,
+				DAD5552A24333BEF0041A61B /* CircuitsDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,16 +500,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI-MotoGP/SwiftUI-MotoGP.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-MotoGP/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-MotoGP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Zero.SwiftUI-MotoGP";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MotoGP-2020-Introduction";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,16 +523,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI-MotoGP/SwiftUI-MotoGP.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-MotoGP/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-MotoGP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Zero.SwiftUI-MotoGP";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MotoGP-2020-Introduction";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
