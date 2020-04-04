@@ -10,8 +10,10 @@ import SwiftUI
 
 struct firstpage: View {
     @State private var moveDistance: CGFloat = 0
+    @State private var moveDistancey: CGFloat = -650
     @State private var count=0
-    @State private var opacity: Double = 1
+ 
+    @State private var rotateDegree: Double = 0
     var body: some View {
         ScrollView{
             VStack{
@@ -68,39 +70,56 @@ struct firstpage: View {
                         .offset(x:110,y:-90)
                     Button("START"){
                         self.count+=1
-                        //self.moveDistance=0
-                        //self.opacity=1
+                        
                         if self.count==1{
                             self.moveDistance+=60
-                            self.opacity-=0.2
+                       
+                            self.moveDistancey = -650
+                            
                         }else if self.count==2{
-                            self.moveDistance+=1000
-                            self.opacity-=0.3
-                           
+                            self.moveDistance+=250
+                            self.moveDistancey = -650
+                            
                             
                         }else if self.count==3{
-                            self.moveDistance=0
-                            self.opacity=1
+                             self.moveDistancey += 300
+                            self.rotateDegree = 180
+                            
+                        }else if
+                            self.count==4{
+                            
+                            self.moveDistance-=310
+                            
+                           
+                            
+                        }
+                        else if
+                            self.count==5{
+                            
+                            self.moveDistancey-=300
+                         self.rotateDegree = 360
                             self.count=0
                             
                         }
-                       
+                        
                     }
                     .font(.custom("GillSans-Italic",size:30))
                     .offset(x:0,y:-740)
                     HStack{
                         Image("Motorcycle")
-                        
+                            
                             .resizable()
+                            .rotationEffect(.degrees(rotateDegree))
                             .frame(width:130,height:100)
-                            .offset(x:moveDistance,y:-650)
-                        .opacity(opacity)
+                            .offset(x:moveDistance,y:moveDistancey)
+                            
+                            
                             .animation(.easeIn(duration:1))
                         
                         Spacer()
                     }
                 }
-                Text("世界摩托車錦標賽（Grand Prix motorcycle racing，簡稱MotoGP），是指摩托車賽中最重要的一項賽事。賽事由國際摩托車賽車協會（FIM）主辦，各分站賽主辦國負責承辦的每場具體的比賽，具體管理和爭端仲裁則由MotoGP賽事委員會執行。\n\n目前MotoGP這項賽事又根據引擎排氣量分為3個級別：Moto 3 (250cc)、Moto 2 (765cc)、Moto GP (1000cc)，3個級別就意味著每個分站會有三組賽事，由於MotoGP組的技術指標遠遠高於其他組，這組比賽往往是賽事中的焦點。但出於對安全性的考慮，MotoGP於2007年限定引擎排氣量最高為800cc，但在2012年，官方又將其改回1000cc。\n\n儘管MotoGP在這裡作為一個級別的名稱，但也作為三個級別賽事的統稱，這種用法是官方於2002年規定的，但更多的場合「MotoGP」指的是MotoGP級別。")
+                Text("世界摩托車錦標賽（Grand Prix motorcycle racing，簡稱MotoGP），是指摩托車賽中最重要的一項賽事。賽事由國際摩托車賽車協會（FIM）主辦，各分站賽主辦國負責承辦的每場具體的比賽，具體管理和爭端仲裁則由MotoGP賽事委員會執行。\n\n目前MotoGP這項賽事又根據引擎排氣量分為3個級別：Moto 3 (250cc)、Moto 2 (765cc)、Moto GP (1000cc)，3個級別就意味著每個分站會有三組賽事，由於MotoGP組的技術指標遠遠高於其他組，這組比賽往往是賽事中的焦點。但出於對安全性的考慮，MotoGP於2007年限定引擎排氣量最高為800cc，但在2012年，官方又將其改回1000cc。\n\n儘管MotoGP在這裡作為一個級別的名稱，但也作為三個級別賽事的統稱，這種用法是官方於2002年規定的，但更多的場合「MotoGP」指的是MotoGP級別。\n\n賽事內容:\n各分站進行為期三天的賽事，第一天為自由練習第一、二節（Free Practice），第二天為自由練習第三、四節（Free Practice）與排位賽（Qualify Practice），最後一天為熱身賽（Warm-Up Practice）與正式比賽（Race）。")
                     .fixedSize(horizontal: false, vertical: true)
                     .frame(width:350)
                     .padding()

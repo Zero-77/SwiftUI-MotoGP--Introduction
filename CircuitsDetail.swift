@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct CircuitsDetail: View {
- let circuits:CircuitData
+    let circuits:CircuitData
     var body: some View {
         ScrollView{
             VStack{
@@ -19,9 +19,9 @@ struct CircuitsDetail: View {
                     Text(circuits.GPName)
                     Text("賽道名稱：\n\(circuits.circuitName)\n").font(.custom("MarkerFelt-Wide",size:20))
                         .background(Color(hue: 0.564, saturation: 1.0, brightness: 1.0))
-                    .cornerRadius(15)
+                        .cornerRadius(15)
                     Text("MotoGP單圈最快紀錄(分/秒):\n \(circuits.Fastlaptimes)\n").font(.custom("MarkerFelt-Wide",size:18)).background(Color(hue: 0.396, saturation: 0.953, brightness: 0.739))
-                    .cornerRadius(10)
+                        .cornerRadius(10)
                     
                 }
                 Text("介紹：\n\(circuits.Introduction)")
@@ -50,12 +50,12 @@ struct CircuitsDetail_Previews: PreviewProvider {
 struct CircuitImage: View {
     let circuitdata:CircuitData
     var body: some View {
-       Image(circuitdata.GPName)
-        .resizable()
-        .clipped()
-        .background(Color(hue: 0.51, saturation: 1.0, brightness: 1.0))
-        .cornerRadius(20)
-        .scaledToFit()
+        Image(circuitdata.GPName)
+            .resizable()
+            .clipped()
+            .background(Color(hue: 0.51, saturation: 1.0, brightness: 1.0))
+            .cornerRadius(20)
+            .scaledToFit()
         
     }
 }
