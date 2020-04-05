@@ -24,12 +24,11 @@ struct RiderRow: View {
                 Text(Riders.Name)
                     .font(.headline)
                     .fontWeight(.heavy)
-                    .foregroundColor(Color(hue: 0.686, saturation: 0.981, brightness: 0.826))
+                    .foregroundColor(Color(hue: 0.591, saturation: 0.981, brightness: 0.826))
                 Text("      ＊車號：\(Riders.Bikenumber)＊")
-                    .font(.custom("Copperplate",size:21))
                     .font(.headline)
                     .fontWeight(.heavy)
-                    .foregroundColor(Color.black)
+                    
             }
             Spacer()
             }.padding(10).background(Image("motoGP").resizable().scaledToFill().opacity(0.3)).clipped()

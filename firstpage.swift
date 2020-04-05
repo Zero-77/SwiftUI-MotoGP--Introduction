@@ -65,7 +65,6 @@ struct firstpage: View {
                     
                     Text("-2020")
                         .font(.custom("Cochin-Bold", size:60))
-                        .foregroundColor(Color.black)
                         .cornerRadius(10)
                         .offset(x:110,y:-90)
                     Button("START"){

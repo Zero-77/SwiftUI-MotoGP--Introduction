@@ -33,7 +33,7 @@ struct secondpage: View {
                 }
                     
             }//.accentColor(.blue)
-            .overlay(MotoGPmusic().offset(x:0,y:326),alignment: .center)
+            .overlay(MotoGPmusic().offset(x:0,y:-49),alignment: .bottom)
             
         }
     }
